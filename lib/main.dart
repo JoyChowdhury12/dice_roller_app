@@ -1,6 +1,5 @@
 
 void main(){
-  
+  runApp();
 }
 
-runApp();
