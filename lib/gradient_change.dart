@@ -1,3 +1,4 @@
+import 'package:first_app/text_font.dart';
 import 'package:flutter/material.dart';
 
 class GradientContainer extends StatelessWidget {
@@ -20,14 +21,4 @@ class GradientContainer extends StatelessWidget {
   }
 }
 
-class TextFont extends StatelessWidget {
-  const TextFont({super.key});
 
-  @override
-  Widget build(context) {
-    return const Text(
-      'Hello World!',
-      style: TextStyle(color: Colors.white, fontSize: 28),
-    );
-  }
-}
