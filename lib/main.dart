@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
                 'Hello World!',
               ),
               Text(
-                
+                'It\'s time to learn Flutter!',
               ),
             ],
           ),
