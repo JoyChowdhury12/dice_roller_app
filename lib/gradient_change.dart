@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 const startAlignment = Alignment.topLeft;
 const endAlignment = Alignment.bottomRight;
 
-class GradientContainer extends StatelessWidget {
+class GradientContainer extends StatefulWidget {
   GradientContainer({super.key});
 
   var activeDiceImage = 'assets/images/dice-2.png';
@@ -28,7 +28,7 @@ class GradientContainer extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           Image.asset(
-            'assets/images/dice-2.png',
+            activeDiceImage,
             width: 200,
           ),
           const SizedBox(height: 20,),
