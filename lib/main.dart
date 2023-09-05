@@ -3,7 +3,7 @@ import 'gradient_change.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       home: Scaffold(
         body: GradientContainer(), 
       ),

@@ -4,14 +4,10 @@ import 'package:flutter/material.dart';
 const startAlignment = Alignment.topLeft;
 const endAlignment = Alignment.bottomRight;
 
-class GradientContainer extends StatefulWidget {
-  GradientContainer({super.key});
+class GradientContainer extends StatelessWidget {
+  const GradientContainer({super.key});
 
-  var activeDiceImage = 'assets/images/dice-2.png';
-
-  void rollDice() {
-    activeDiceImage = 'assets/images/dice-4.png';
-  }
+  
 
   @override
   Widget build(context) {
@@ -24,25 +20,8 @@ class GradientContainer extends StatefulWidget {
         ),
       ),
       child: Center(
-          child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Image.asset(
-            activeDiceImage,
-            width: 200,
-          ),
-          const SizedBox(height: 20,),
-          TextButton(
-            onPressed: rollDice,
-            style: TextButton.styleFrom(
-              //padding: const EdgeInsets.only(top: 20),
-              foregroundColor: Colors.white,
-              textStyle: const TextStyle(fontSize: 28),
-            ),
-            child: const Text('Roll the Dice'),
-          )
-        ],
-      )),
+          child: 
+      ),
     );
   }
 }
